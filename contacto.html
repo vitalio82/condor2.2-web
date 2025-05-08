@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contacto | Chocolates del Valle</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <h1>Contacto</h1>
+  <nav>
+    <a href="index.html">Inicio</a> |
+    <a href="productos.html">Productos</a> |
+    <a href="contacto.html">Contacto</a>
+  </nav>
+
+  <p>¿Tienes alguna duda o quieres hacer un pedido? Rellena el formulario:</p>
+
+  <form action="https://formsubmit.co/ticonadaniel17@gmail.com" method="POST">
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+
+    <label for="correo">Correo electrónico:</label><br>
+    <input type="email" id="correo" name="correo" required><br><br>
+
+    <label for="mensaje">Mensaje:</label><br>
+    <textarea id="mensaje" name="mensaje" rows="5" required></textarea><br><br>
+
+    <!-- Opcional: evitar spam y redirigir al enviar -->
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://tusitio.com/gracias.html">
+
+    <button type="submit">Enviar mensaje</button>
+  </form>
+</body>
+</html>

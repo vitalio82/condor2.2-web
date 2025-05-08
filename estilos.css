@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    color: #4b2e1e;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: #7b3f00;
+    text-align: center;
+  }
+  
+  nav {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  nav a {
+    background-color: #a0522d;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 5px;
+  }
+  
+  nav a:hover {
+    background-color: #7b3f00;
+  }
+  
+  ul {
+    background-color: #fff0e0;
+    padding: 15px;
+    border-radius: 8px;
+    list-style-type: square;
+  }
+  
+  img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  /* Estilos para pantallas pequeñas como celulares */
+@media (max-width: 600px) {
+    body {
+      padding: 10px;
+      font-size: 16px;
+    }
+  
+    nav a {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    ul {
+      padding: 10px;
+    }
+  
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
